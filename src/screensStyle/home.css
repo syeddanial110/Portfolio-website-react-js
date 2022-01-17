@@ -1,0 +1,171 @@
+.homebg {
+  background-image: url("E:/React js/Classes/portfoliowebsite/src/assets/images/homebg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+.bgImageContent {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  height: 600px;
+}
+.content {
+  align-items: center !important;
+  /* margin-left: 15vh; */
+}
+.contentHeading {
+  font-size: 52px;
+  color: rgba(10, 10, 114, 0.9);
+}
+.contentParaBold {
+  font-size: 25px;
+}
+@media screen and (max-width: 414px) {
+  .homebg {
+    height: 300px;
+  }
+  .bgImageContent {
+    height: 300px;
+  }
+  .contentHeading {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1264px) {
+  .contentHeading {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 784px) {
+  .contentHeading {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 574px) {
+  .contentParaBold {
+    font-size: 12px;
+  }
+  .contentPara {
+    margin-top: 22px;
+  }
+}
+@media screen and (max-width: 601px) {
+  .contentParaBold {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 697px) {
+  .homebg {
+    height: 500px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .homebg {
+    height: 300px;
+  }
+  .contentParaBold {
+    font-size: 10px;
+  }
+  .contentPara {
+    font-size: 10px;
+  }
+  .contentHeading {
+    font-size: 17px;
+  }
+  .content{
+    margin-left: -18px !important;
+
+  }
+}
+
+.homeServices1 {
+  background-color: rgba(189, 183, 183, 0.2);
+  border-top-right-radius: 525px;
+}
+.homeCard {
+  /* background: orange; */
+  background: linear-gradient(to left, rgb(240, 61, 6) 50%, lightblue 50%) right;
+  background-size: 200%;
+  transition: 0.5s ease-out;
+  color: white;
+}
+.homeCard:hover {
+  background-position: left;
+  color: black;
+}
+.homeServices2 {
+  background-color: rgba(189, 183, 183, 0.2);
+  border-bottom-right-radius: 525px;
+}
+
+.serviceProductUl {
+  /* list-style: none; */
+  text-align: center;
+  margin-top: 25px;
+  /* margin-left: 35px; */
+}
+.serviceProductLi {
+  display: inline;
+  padding: 20px;
+  color: black;
+  /* border: none !important; */
+}
+.serviceProductLi:hover {
+  border-bottom: 1px solid red;
+}
+
+.homeContactbg {
+  background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xsection_bg02.jpg.pagespeed.ic.KYH-XdPXZ0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  height: 300px;
+}
+.homeContact {
+  height: 300px;
+  align-items: center;
+}
+
+@media screen and (max-width: 657px) {
+  .homeContactbg {
+    height: 150px;
+  }
+  .homeContact {
+    height: 150px;
+  }
+  .contactHeading {
+    font-size: 21px !important;
+  }
+}
+
+.homeFeedback {
+  height: 40vh;
+  align-items: center;
+  /* display: flex; */
+}
+/* .feedbackHeading{
+  align-items: center;
+
+} */
+
+.homeContactForm {
+  background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/section_bg04.jpg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.contactContent {
+  display: flex;
+  justify-content: center;
+}
+.homeForm {
+  border: none !important;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.contactBtn {
+  display: flex;
+  justify-content: center !important;
+}

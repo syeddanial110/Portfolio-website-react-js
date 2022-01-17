@@ -1,0 +1,34 @@
+@media screen and (max-width: 1326px) {
+    .sliderMainDiv {
+     margin-top: 65px;
+    }
+  }
+@media screen and (max-width: 1291px) {
+    .sliderMainDiv {
+     margin-top: 65px;
+    }
+    .sliderHeading{
+        font-size: 15px;
+    }
+  }
+@media screen and (max-width: 1261px) {
+   
+    .sliderHeading{
+        margin-left: 15px;
+    }
+    .sliderPara{
+        margin-left: 15px;
+    }
+  }
+@media screen and (max-width: 1149px) {
+   .sliderHeading{
+        font-size: 14px;
+   }
+    
+  }
+@media screen and (max-width: 1119px) {
+   .sliderHeading{
+        font-size: 13px;
+   }
+    
+  }
