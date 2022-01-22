@@ -6,18 +6,14 @@ import AboutContent from '../components/AboutContent'
 import '../screensStyle/about.css'
 import CardsHoizontalSlider from "../components/CardsHorizontalSlider"
 import BrandHorizontalSlider from "../components/BrandHorizontalSlider"
+import PagesStartup from '../components/PagesStartup'
 
 const About = () => {
     return (
         <>
-            <Row >
-                <Col md={12} className='aboutBg'>
-                    <Row className='aboutContent'>
-                        <Col md={{ span: 4, offset: 1 }} className=''>
-                            <h1>About Me</h1>
-                            <p><Link to="/">Home</Link>- About Me </p>
-                        </Col>
-                    </Row>
+            <Row>
+                <Col>
+                <PagesStartup text="About Me" />
                 </Col>
             </Row>
 

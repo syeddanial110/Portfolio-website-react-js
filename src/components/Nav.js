@@ -11,7 +11,7 @@ const Main = () => {
 
     return (
         <>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light sticky-top" expand="lg">
                 <Container fluid>
                     <Navbar.Brand className='fs-2' href="#"><Image src={navIcon} /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
