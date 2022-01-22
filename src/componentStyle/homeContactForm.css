@@ -1,0 +1,21 @@
+
+.homeContactForm {
+    background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/section_bg04.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+  }
+  .contactContent {
+    display: flex;
+    justify-content: center;
+  }
+  .homeForm {
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .contactBtn {
+    display: flex;
+    justify-content: center !important;
+  }
+  

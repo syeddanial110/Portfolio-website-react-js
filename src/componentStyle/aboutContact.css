@@ -1,0 +1,24 @@
+.homeContactbg {
+    background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xsection_bg02.jpg.pagespeed.ic.KYH-XdPXZ0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 300px;
+  }
+
+  .homeContact {
+    height: 300px;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 657px) {
+    .homeContactbg {
+      height: 150px;
+    }
+    .homeContact {
+      height: 150px;
+    }
+    .contactHeading {
+      font-size: 21px !important;
+    }
+  }

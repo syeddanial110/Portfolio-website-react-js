@@ -52,7 +52,11 @@ export default class MultipleItems extends Component {
         ]
         return (
             <div className="sliderMainDiv">
-
+                <Row className='homeFeedback'>
+                    <Col md={6}  >
+                        <h1 className='p-5 mt-5'>Some Possitive Feedback That Encourage Us</h1>
+                    </Col>
+                </Row>
                 <Slider {...settings}>
                     {
                         feebackCards.map((card) => {

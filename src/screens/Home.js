@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Button, Card, CardGroup, Col, Container, Image, ListGroup, Row, Stack, Tab, Tabs,Form } from 'react-bootstrap'
+import { Button, Card, CardGroup, Col, Container, Image, ListGroup, Row, Stack, Tab, Tabs, Form } from 'react-bootstrap'
 import HomebgImageAntDesignContent from '../components/HomebgImageAntDesignContent'
 // import { Row, Col } from 'antd';
 import "../screensStyle/home.css"
@@ -17,6 +17,8 @@ import { Link } from 'react-router-dom'
 import CardsHorizontalSlider from "../components/CardsHorizontalSlider"
 import BrandHorizontalSlider from "../components/BrandHorizontalSlider"
 import Footer from "../components/Footer"
+import AboutContent from '../components/AboutContent'
+import HomeContactForm from '../components/HomeContactForm'
 
 
 const Home = () => {
@@ -77,21 +79,7 @@ const Home = () => {
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col md={6} className='p-5 mt-5 mb-5'>
-                        <h2 className='fs-2'>Designing With Passion While Exploring The World.</h2>
-                        <p className='py-2 '>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
-                        </p>
-                        <p className=''>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua.</p>
-                    </Col>
-                    <Col md={6} className='p-5 mt-5 mb-5 '>
-                        <h1 className='py-2 fs-2'>Any Type Of Query
-                            & Discussion.</h1>
-                        <p className='py-4 fs-5'>Late talk with me</p>
-                        <p className='fs-5' style={{ display: "inline-block" }}>daniald3200@gmail.com</p>
-                        <Link to="/"> <FontAwesomeIcon className='mx-3 text-dark fs-5' icon={faArrowRight} /> </Link>
-                    </Col>
-                </Row>
+                <AboutContent />
 
                 {/* Home Services Cards */}
                 <Row className='homeServices1 w-75'>
@@ -181,11 +169,7 @@ const Home = () => {
                     </Col>
                 </Row>
 
-                <Row className='homeFeedback'>
-                    <Col md={6}  >
-                        <h1 className='p-5 mt-5'>Some Possitive Feedback That Encourage Us</h1>
-                    </Col>
-                </Row>
+
                 <Row>
                     <Col md={12} sm={12} xs={12}>
                         <CardsHorizontalSlider />
@@ -199,38 +183,16 @@ const Home = () => {
 
                 {/* Contact Form */}
 
-                <Row className='homeContactForm mt-5'>
+                <Row className='mt-5'>
                     <Col md={12}>
-                        <Row className='contactContent'>
-                            <Col md={4} className='mx-5'>
-                                <h1 >If Not Now, When? Let’s Work Together!</h1>
-                                <p >Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra.</p>
-                                <Image className='mt-3' src="https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xsin.png.pagespeed.ic.4L7r6tiIs5.webp" />
-                            </Col>
-                            <Col md={4} className='mx-5 '>
-                                <Form>
-                                    <Form.Group className="mb-3 " controlId="exampleForm.ControlInput1">
-                                       
-                                        <Form.Control className='m-3 homeForm' type="text" placeholder="Full Name" />
-                                        <Form.Control className='m-3 homeForm' type="email" placeholder="Email Address" />
-                                        <Form.Control className='m-3 homeForm' as="textarea" rows={3} placeholder='Your Message' />
-                                    </Form.Group>
-                                </Form>
-                                <Row>
-                                    <Col md={12} className='contactBtn'>
-                                   <Button className='contactBtn px-5 btn-danger'>Send Message</Button>
-                                    </Col>
-                                </Row>
-                            </Col>
-                        </Row>
+                        <HomeContactForm />
                     </Col>
                 </Row>
-
-                <Row>
+                {/* <Row>
                     <Col>
                     <Footer />
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
 
         </>

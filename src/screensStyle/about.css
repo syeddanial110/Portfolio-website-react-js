@@ -1,0 +1,13 @@
+.aboutBg {
+  background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/hero/xhero2.jpg.pagespeed.ic.F0IFYGu3md.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.aboutContent {
+  height: 300px;
+  align-items: center;
+}

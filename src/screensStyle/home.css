@@ -80,6 +80,9 @@
   }
 }
 
+
+
+
 .homeServices1 {
   background-color: rgba(189, 183, 183, 0.2);
   border-top-right-radius: 525px;
@@ -160,6 +163,8 @@
 .contactContent {
   display: flex;
   justify-content: center;
+  align-items: center;
+  height: 70vh;
 }
 .homeForm {
   border: none !important;
