@@ -1,0 +1,68 @@
+.serviceContactbg {
+    background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/gallery/xsection_bg02.jpg.pagespeed.ic.KYH-XdPXZ0.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 300px;
+}
+.serviceContact {
+    height: 300px;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .serviceHeading {
+        font-size: 25px;
+    }
+    .serviceContactbg{
+        height: 250px;
+    }
+    .serviceContact {
+        height: 250px;
+        
+    }
+    
+    
+  }
+@media screen and (max-width: 700px) {
+    .serviceHeading {
+        font-size: 20px;
+    }
+    .serviceContactbg{
+        height: 200px;
+    }
+    .serviceContact {
+        height: 200px;
+        
+    }
+    
+    
+  }
+@media screen and (max-width: 483px) {
+   
+    .contactBtn{
+        font-size: 15px;
+    }
+    
+  }
+@media screen and (max-width: 483px) {
+  
+    .contactBtn{
+        font-size: 12px;
+    }
+    
+  }
+@media screen and (max-width: 393px) {
+  
+    .contactBtn{
+        font-size: 11px;
+    }
+    
+  }
+@media screen and (max-width: 360px) {
+  
+    .contactBtn{
+        font-size: 10px;
+    }
+    
+  }

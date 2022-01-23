@@ -10,7 +10,7 @@ const PagesStartup = (props) => {
                 <Col md={12} className='aboutBg'>
                     <Row className='aboutContent'>
                         <Col md={{ span: 4, offset: 1 }} className=''>
-                            <h1>{text}</h1>
+                            <h1 className='aboutHeading'>{text}</h1>
                             <p><Link to="/">Home</Link>- {text} </p>
                         </Col>
                     </Row>

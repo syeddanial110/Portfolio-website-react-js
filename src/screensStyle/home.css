@@ -22,15 +22,22 @@
 .contentParaBold {
   font-size: 25px;
 }
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 412px) {
   .homebg {
-    height: 300px;
+    height: 600px;
   }
   .bgImageContent {
     height: 300px;
   }
-  .contentHeading {
-    font-size: 20px;
+
+  .contentPara{
+    font-size: 8px;
+  }
+  .contentParaBold{
+   font-size: 12px;
+  }
+  .contentHeading{
+   font-size: 15px;
   }
 }
 @media screen and (max-width: 1264px) {
@@ -60,16 +67,56 @@
   .homebg {
     height: 500px;
   }
+  .bgImageContent{
+    height: 500px;
+  }
+}
+@media screen and (max-width: 482px) {
+  .homebg {
+    height: 400px;
+  }
+  .bgImageContent{
+    height: 400px;
+  }
+ .contentPara{
+   font-size: 12px;
+ }
+ .contentParaBold{
+  font-size: 12px;
+ }
+ .contentHeading{
+  font-size: 18px;
+ }
+}
+@media screen and (max-width: 393px) {
+  .homebg {
+    height: 350px;
+  }
+  .bgImageContent{
+    height: 350px;
+  }
+ .contentPara{
+   font-size: 7px;
+ }
+ .contentParaBold{
+  font-size: 10px;
+ }
+ .contentHeading{
+  font-size: 15px;
+ }
 }
 @media screen and (max-width: 375px) {
   .homebg {
+    height: 300px;
+  }
+  .bgImageContent{
     height: 300px;
   }
   .contentParaBold {
     font-size: 10px;
   }
   .contentPara {
-    font-size: 10px;
+    font-size: 7px;
   }
   .contentHeading {
     font-size: 17px;

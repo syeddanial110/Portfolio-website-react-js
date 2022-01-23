@@ -5,3 +5,17 @@
 .divider{
     color: white;
 }
+@media screen and (max-width: 1440px) {
+    .footer {
+      height: 60vh;
+    }
+    
+    
+  }
+@media screen and (max-width: 1326px) {
+    .footer {
+      height: 100vh;
+    }
+    
+    
+  }

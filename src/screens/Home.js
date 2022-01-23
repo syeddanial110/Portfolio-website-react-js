@@ -32,10 +32,10 @@ const Home = () => {
         <>
             <Container fluid>
                 <Row>
-                    <Col md={12} className='homebg'>
+                    <Col md={12} sm={12} xs={12} className='homebg'>
                         {/* <HomebgImageAntDesignContent />     */}
                         <Row className='bgImageContent mx-5 ' >
-                            <Col md={5} sm={5} xs={9} className='content'>
+                            <Col md={5} sm={5} xs={6} className='content'>
                                 <p className=' text-danger contentParaBold'>Get Every Single Solutions</p>
                                 <h1 className='contentHeading '>I'm Web Developer</h1>
                                 <h1 className='contentHeading '>Syed Danial</h1>

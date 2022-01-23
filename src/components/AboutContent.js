@@ -9,7 +9,7 @@ import { faArrowRight, faPenNib, faMobileAlt, faShoppingBag, faShoppingCart } fr
 const AboutContent = () => {
     return (<>
         <Row>
-            <Col md={6} className='p-5 mt-5 mb-5 homeBorder' >
+            <Col md={6} className='p-5 mt-3 mb-5 homeBorder' >
                 <h2 className='fs-2'>Designing With Passion While Exploring The World.</h2>
                 <p className='py-2 '>Consectetur adipiscing elit, sed do eiusmod tempor ididunt ut labore et dolore magna aliqua. Quis ipsum suspendisces gravida. Risus commodo viverra sebfd dho eiusmod tempor maecenas accumsan lacus.
                 </p>

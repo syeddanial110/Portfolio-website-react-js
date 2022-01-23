@@ -2,12 +2,221 @@
   background-image: url("https://preview.colorlib.com/theme/personalportfolio/assets/img/hero/xhero2.jpg.pagespeed.ic.F0IFYGu3md.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 300px;
   /* align-items: center; */
   justify-content: center;
 }
 .aboutContent {
-  height: 300px;
+  height: 150px;
   align-items: center;
+}
+@media screen and (max-width: 414px) {
+  .aboutBg {
+    height: 200px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 880px) {
+  .aboutBg {
+    height: 200px;
+  }
+  .aboutContent {
+    padding-top: 65px;
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 985px) {
+  .aboutBg {
+    height: 210px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 1030px) {
+  .aboutBg {
+    height: 220px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 1078px) {
+  .aboutBg {
+    height: 225px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 1105px) {
+  .aboutBg {
+    height: 230px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 1130px) {
+  .aboutBg {
+    height: 235px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 1160px) {
+  .aboutBg {
+    height: 240px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (min-width: 1190px) {
+  .aboutBg {
+    height: 245px;
+  }
+  .aboutContent {
+    height: 150px;
+  }
+  
+}
+@media screen and (max-width: 880px) {
+  .aboutBg {
+    height: 190px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  .aboutBg {
+    height: 160px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+  
+}
+@media screen and (max-width: 736px) {
+  .aboutBg {
+    height: 150px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+  
+}
+@media screen and (max-width: 706px) {
+  .aboutBg {
+    height: 145px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+  
+}
+@media screen and (max-width: 670px) {
+  .aboutBg {
+    height: 140px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+  
+}
+@media screen and (max-width: 630px) {
+  .aboutBg {
+    height: 135px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  .aboutBg {
+    height: 128px;
+  }
+  .aboutContent {
+    height: 150px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+}
+@media screen and (max-width: 570px) {
+  .aboutBg {
+    height: 123px;
+  }
+  .aboutContent {
+    height: 140px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+}
+@media screen and (max-width: 530px) {
+  .aboutBg {
+    height: 115px;
+  }
+  .aboutContent {
+    height: 130px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+}
+@media screen and (max-width: 500px) {
+  .aboutBg {
+    height: 111px;
+  }
+  .aboutContent {
+    height: 110px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+}
+@media screen and (max-width: 470px) {
+  .aboutBg {
+    height: 90px;
+  }
+  .aboutContent {
+    height: 110px;
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
+}
+@media screen and (max-width: 450px) {
+  .aboutBg {
+    height: 80px;
+  }
+  .aboutContent {
+    height: 90px;
+    
+    padding-left: 50px;
+    /* margin-left: 200px; */
+  }
 }

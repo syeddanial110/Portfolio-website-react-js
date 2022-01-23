@@ -4,6 +4,7 @@ import HomeCards from '../components/HomeCards'
 import PagesStartup from "../components/PagesStartup"
 import BrandHorizontalSlider from "../components/BrandHorizontalSlider"
 import HomeContactForm from "../components/HomeContactForm"
+import "../screensStyle/services.css"
 
 const Services = () => {
     return (
@@ -24,25 +25,25 @@ const Services = () => {
                 </Col>
             </Row>
 
-            <Row className='homeContactbg'>
-                    <Col md={12} >
-                        <Row className='homeContact'>
-                            <Col md={6} className=''>
-                                <h1 className='p-5 contactHeading'>Dont worry for contact i`m available</h1>
-                            </Col>
-                            <Col md={{ span: 3, offset: 2 }}>
-                                <Button variant='danger'>Contact Me Now</Button>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
+            <Row className='serviceContactbg'>
+                <Col md={12} sm={12} >
+                    <Row className='serviceContact'>
+                        <Col md={6} sm={6} xs={8} >
+                            <h1 className='p-5 serviceHeading'>Dont worry for contact i`m available</h1>
+                        </Col>
+                        <Col md={{ span: 3, offset: 2 }} sm={6} xs={4}>
+                            <Button variant='danger' className='contactBtn' >Contact Me Now</Button>
+                        </Col>
+                    </Row>
+                </Col>
+            </Row>
 
-                <Row>
-                    <Col md={12} className='mt-5 mb-5'>
-                        <BrandHorizontalSlider />
-                    </Col>
-                </Row>
-               
+            <Row>
+                <Col md={12} className='mt-5 mb-5'>
+                    <BrandHorizontalSlider />
+                </Col>
+            </Row>
+
 
         </>
     )
